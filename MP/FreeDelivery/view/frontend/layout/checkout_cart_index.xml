@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="cart.summary">
+            <block class="Magento\Framework\View\Element\Template" name="free.delivery.message" template="MP_FreeDelivery::message.phtml" after="checkout.cart.shipping">
+                <arguments>
+                    <argument name="delivery_message" xsi:type="object">MP\FreeDelivery\ViewModel\FreeDeliveryMessage</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

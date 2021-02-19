@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <freedelivery>
+            <general>
+                <free_delivery_message>Darmowa wysyłka od 199zł.</free_delivery_message>
+                <free_delivery_price>199</free_delivery_price>
+            </general>
+        </freedelivery>
+    </default>
+</config>
